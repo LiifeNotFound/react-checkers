@@ -11,7 +11,7 @@ ReactDOM.render(
 				Hendrik Lelis
 			</a>{" "}
 			| Working on it{" "}
-      | Started at 20/3/2001
+      | Started on 20/3/2001
 		</h1>
 		<Table newGame />
 	</React.StrictMode>,
