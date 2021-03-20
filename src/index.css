@@ -4,10 +4,18 @@
 	box-sizing: border-box;
 }
 
-#root{
+h1,
+a {
+	color: white;
+	font-weight: 200;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#root {
 	background: rgb(29, 29, 34);
 	display: flex;
 	height: 100vh;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
