@@ -1,0 +1,41 @@
+.square {
+	width: 100px;
+	height: 100px;
+}
+ 
+.square::after {
+	content: "";
+	border-radius: 50%;
+	position: absolute;
+	width: 80px;
+	transform: translate(10px, 10px);
+	height: 80px;
+	background: var(--piece-color);
+}
+
+.black-square {
+	background: rgb(27, 17, 4);
+}
+
+.white-square {
+	background: rgb(238, 238, 238);
+}
+
+.white-pieces{
+	--piece-color:  rgb(192, 51, 51);
+}
+
+.white-pieces:hover:after {
+    transition: box-shadow .3s;
+	background: rgb(214, 132, 56);
+    box-shadow: rgba(0, 0, 0, 0.541) 2px 15px 15px ;
+}
+.black-pieces:hover:after {
+    transition: box-shadow .3s;
+	background: rgb(214, 132, 56);
+    box-shadow: rgba(0, 0, 0, 0.541) 2px 15px 15px ;
+}
+
+.black-pieces{
+    --piece-color:rgb(50, 182, 109);
+}

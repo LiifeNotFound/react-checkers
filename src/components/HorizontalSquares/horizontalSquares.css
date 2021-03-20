@@ -1,0 +1,7 @@
+.horizontalSquares {
+	display: flex;
+}
+
+.inverted {
+	flex-direction: row-reverse;
+}
